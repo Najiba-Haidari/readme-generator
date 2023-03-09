@@ -14,43 +14,43 @@ const questions =[
     {
         type: 'input',
         message: "Enter a project description:",
-        name: 'Description'
+        name: 'description'
     },
     {
         type: 'input',
         message: "Enter installation instructions:",
-        name: 'Installation'
+        name: 'installation'
     },
     {
         type: 'input',
         message: "Enter usage instructions:",
-        name: 'Usage'
+        name: 'usage'
     },
     {
         type: 'list',
         message: "Choose a license for this project:",
         choices: ["Apache", "GNU", "MIT"],
-        name: 'License'
+        name: 'license'
     },
     {
         type: 'input',
         message: "Enter instructions for contributing:",
-        name: "Contributing"
+        name: "contributing"
     },
     {
         type: 'input',
         message: "Enter commands for testing the application:",
-        name: 'Testing'
+        name: 'testing'
     },
     {
         type: 'input',
         message: "Enter your GitHub username:",
-        name: 'Username'
+        name: 'username'
     },
     {
         type: 'input',
         message: "Enter your email:",
-        name: 'Email'
+        name: 'email'
     }
   ];
 
