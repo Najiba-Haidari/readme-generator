@@ -46,8 +46,12 @@ attached.
 ![READEME generator](./Video-%20README%20Generator.webm) 
 "README GENERATOR")
 
+or use the following linke to see the video
+https://drive.google.com/file/d/12VHXO2IZ37-uw5TlpspEcWVc744Zkjlw/view
+
 ## URL of Github Repository
-https://najiba-haidari.github.io/readme-generator/
+(https://najiba-haidari.github.io/readme-generator/)
+https://drive.google.com/file/d/12VHXO2IZ37-uw5TlpspEcWVc744Zkjlw/view
 
 
 ## Credits
