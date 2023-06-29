@@ -1,8 +1,9 @@
 ## Project Title
-README GENERATOR
+Readme-Generator
+[![MIT: license](https://img.shields.io/badge/license-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
-THIS APP HELPS OUT DEVELOPERS TO GENERATE README FILES.
+This README GENERATOR App helps out developers to generate README files instantly for their projects.
 
 ## Table of Contents
 - [Installation](#installation)
@@ -13,20 +14,20 @@ THIS APP HELPS OUT DEVELOPERS TO GENERATE README FILES.
 - [Questions](#questions)
 
 ## Installation  
-NO INSTALLATION REQUIRED
+*npm init -y *npm i inquirer *node index.js
 
 ## Usage
-N/A
+By using this webpage, you can easily generate a readme file for your project. Enjoy it.
 
 ## License
-MIT
+MIT license, [![MIT: license](https://img.shields.io/badge/license-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Contributing
-NO CONTRIBUTING
+N/A
 
 ## Tests
 Run the following commands to test the application.
-N/A
+node index.js
 
 ## further questions
-If any questions, please contact me on GitHub NAJIBA-HAIDARI or email me at NHAIDARI089@GMAIL.COM
+If any questions, please contact me on GitHub Najiba-hai or email me at najiba@gmail.com

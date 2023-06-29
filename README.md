@@ -1,5 +1,5 @@
-# 09 Node.js Challenge: Professional README Generator
-Week 9 challenge to create a README Generator using node.js
+# Node.js: Professional README Generator
+README Generator using node.js
 
 # Description
 This README GENERATOR App helps out developers to generate README files instantly for their projects.
@@ -34,7 +34,9 @@ THEN I am taken to the corresponding section of the README
 
 ## Installation
 
-N/A
+* run npm init -y
+* install Inquirer package by running "npm i inquirer".
+* node index.js
 
 ## Usage
 
@@ -42,9 +44,7 @@ By using this webpage, you can easily generate a readme file for your project. E
 
 ## video of the outcome
 
-attached. 
-![READEME generator](./Video-%20README%20Generator.webm) 
-"README GENERATOR")
+![READEME generator](./assets/Screenshot%202023-06-29%20at%202.38.42%20PM.png) 
 
 or use the following linke to see the video
 https://drive.google.com/file/d/12VHXO2IZ37-uw5TlpspEcWVc744Zkjlw/view
@@ -53,11 +53,10 @@ https://drive.google.com/file/d/12VHXO2IZ37-uw5TlpspEcWVc744Zkjlw/view
 https://najiba-haidari.github.io/readme-generator/
 
 
-
 ## Credits
 
 N/A
 
 ## License
 
-Please refer to the LICENSE in the repo.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)

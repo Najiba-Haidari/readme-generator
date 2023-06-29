@@ -1,10 +1,10 @@
 
-// TODO: Include packages needed for this application
+//Include packages needed for this application
 const inquirer = require("inquirer");
 const fs = require('fs');
-// const { title } = require("process");
+const path = require('path')
 
-// TODO: Create an array of questions for user input
+//array of questions for user input
 const questions =[
     {
         type: 'input',
@@ -54,11 +54,19 @@ const questions =[
     }
   ];
 
-// TODO: Create a function to write README file
+  // If there is no license, return an empty string
+function renderLicenseBadge(license) {
+    if (license !== "None"){
+       return `[![${license}: license](https://img.shields.io/badge/license-${license}-yellow.svg)](https://opensource.org/licenses/${license})`
+    }
+}
+
+//function to write README file
 const generateReadme = ({title, description, installation, usage, license, contributing, testing, username, email}) =>
 
 `## Project Title
 ${title}
+${renderLicenseBadge(license)}
 
 ## Description
 ${description}
@@ -78,7 +86,7 @@ ${installation}
 ${usage}
 
 ## License
-${license}
+${license} license, ${renderLicenseBadge(license)}
 
 ## Contributing
 ${contributing}
@@ -90,18 +98,8 @@ ${testing}
 ## further questions
 If any questions, please contact me on GitHub ${username} or email me at ${email}`;
 
-// create a function to write README File
-// function writeToFile = data => {
 
-//     let projectTitle = data["Title of Project"];
-//     const readmeText = `# ${projectTitle}
-    
-//     `
-// }
-
- 
-
-// TODO: Create a function to initialize app
+// a function to initialize app
 const init = () => {
     inquirer 
         .prompt(questions)
@@ -122,4 +120,3 @@ const init = () => {
 // Function call to initialize app
 init();
 
-//why the readme generated has undefined values?
